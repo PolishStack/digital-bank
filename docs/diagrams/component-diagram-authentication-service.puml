@@ -13,7 +13,7 @@ Container_Boundary(auth-service, "Authentication Service"){
   Container(auth_event_producer_adapter , "Event Producer Adapter", "kafka-go", "Publish auth events to other services")
   Container(auth_usecase, "Usecase", "struct with methods implementing business logic")
   Container(auth_entity, "Entity", "struct", "Define db models and http request-response structure; used by all layers")
-  Container(auth_logging_adapter, "Logging Adapter", "zap", "Log info, error, debug logs; used by all layers")
+  Container(auth_logging_adapter, "Logging Adapter", "zerolog", "Log info, error, debug logs; used by all layers")
 
   Rel(auth_http_adapter, auth_usecase, "Uses")
   Rel(auth_usecase, auth_db_adapter, "Uses")
