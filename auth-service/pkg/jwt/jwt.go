@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/polishstack/digital-bank/auth-service/internal/entities"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/internal/entities"
 )
 
 // Service is the interface used by usecases / middleware

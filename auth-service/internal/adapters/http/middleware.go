@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/polishstack/digital-bank/auth-service/pkg/jwt"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/jwt"
 	"github.com/rs/zerolog"
 )
 

@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/polishstack/digital-bank/auth-service/internal/entities"
-	errs "github.com/polishstack/digital-bank/auth-service/pkg/errors"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/internal/entities"
+	errs "github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/errors"
 	"github.com/rs/zerolog"
 	"gorm.io/gorm"
 )

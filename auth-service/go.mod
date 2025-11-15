@@ -1,4 +1,4 @@
-module github.com/polishstack/digital-bank/auth-service
+module github.com/BitKa-Exchange/bitka-exchange/auth-service
 
 go 1.24.1
 

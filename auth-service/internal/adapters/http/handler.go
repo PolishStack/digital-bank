@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/polishstack/digital-bank/auth-service/internal/entities/dto"
-	"github.com/polishstack/digital-bank/auth-service/internal/usecases"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/internal/entities/dto"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/internal/usecases"
 )
 
 type Handler struct {

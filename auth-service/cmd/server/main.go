@@ -7,17 +7,17 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 
-	cfgpkg "github.com/polishstack/digital-bank/auth-service/pkg/config"
-	dbpkg "github.com/polishstack/digital-bank/auth-service/pkg/db"
-	"github.com/polishstack/digital-bank/auth-service/pkg/jwt"
-	logpkg "github.com/polishstack/digital-bank/auth-service/pkg/log"
+	cfgpkg "github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/config"
+	dbpkg "github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/db"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/jwt"
+	logpkg "github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/log"
 
-	dbadapter "github.com/polishstack/digital-bank/auth-service/internal/adapters/db"
-	"github.com/polishstack/digital-bank/auth-service/internal/adapters/http"
-	httpadapter "github.com/polishstack/digital-bank/auth-service/internal/adapters/http"
-	usecases "github.com/polishstack/digital-bank/auth-service/internal/usecases"
-	jwtpkg "github.com/polishstack/digital-bank/auth-service/pkg/jwt"
-	passhash "github.com/polishstack/digital-bank/auth-service/pkg/passhash"
+	dbadapter "github.com/BitKa-Exchange/bitka-exchange/auth-service/internal/adapters/db"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/internal/adapters/http"
+	httpadapter "github.com/BitKa-Exchange/bitka-exchange/auth-service/internal/adapters/http"
+	usecases "github.com/BitKa-Exchange/bitka-exchange/auth-service/internal/usecases"
+	jwtpkg "github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/jwt"
+	passhash "github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/passhash"
 )
 
 func main() {

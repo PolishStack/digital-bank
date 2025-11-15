@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/polishstack/digital-bank/auth-service/pkg/config"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/config"
 	"github.com/rs/zerolog"
 )
 

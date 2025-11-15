@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	"github.com/polishstack/digital-bank/auth-service/internal/adapters/db"
-	"github.com/polishstack/digital-bank/auth-service/internal/entities"
-	errs "github.com/polishstack/digital-bank/auth-service/pkg/errors"
-	"github.com/polishstack/digital-bank/auth-service/pkg/jwt"
-	"github.com/polishstack/digital-bank/auth-service/pkg/passhash"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/internal/adapters/db"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/internal/entities"
+	errs "github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/errors"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/jwt"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/passhash"
 	"github.com/rs/zerolog"
 )
 

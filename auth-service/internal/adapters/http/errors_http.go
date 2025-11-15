@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gofiber/fiber/v2"
-	errs "github.com/polishstack/digital-bank/auth-service/pkg/errors"
+	errs "github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/errors"
 	"github.com/rs/zerolog"
 )
 

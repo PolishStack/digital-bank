@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/polishstack/digital-bank/auth-service/pkg/utils"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/utils"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

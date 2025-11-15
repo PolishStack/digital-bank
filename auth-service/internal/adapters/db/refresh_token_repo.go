@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/polishstack/digital-bank/auth-service/pkg/jwt"
+	"github.com/BitKa-Exchange/bitka-exchange/auth-service/pkg/jwt"
 )
 
 type RefreshTokenRepository interface {
