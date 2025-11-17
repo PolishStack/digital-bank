@@ -1,0 +1,9 @@
+go 1.24.1
+
+use ./services/auth
+
+use ./libs/common
+use ./libs/config
+use ./libs/db
+use ./libs/jwt
+use ./libs/logger
